@@ -107,6 +107,8 @@ max_fee_ppm = 150
 ## Conclusion
 It has been a journey for me to find some fees that works. I have tried to make it such that i am running a routing node with relatively cheap fees in a way that makes me break more or less even when considering cost of hardware, electricity, channel creation fees and rebelancing.
 
+I have provided a way for structuring fees. I do not claim this is a good way to structure fees as I am still learning. It currently works for me with the goals I have, however I may change this in the future. I will keep my changes to my fee structure open source in the hopes that others will do the same so routing node operators can learn from each other.
+
 I have tried to ensure the big nodes that drain funds are paying more for doing so in order to keep my channels balanced.
 
 If you think this guide has been helpful and want to support me and/or the network, feel free to set up a channel to my node, [McDouchebag](https://1ml.com/node/03b75897555da10fc84c93fd1543f4e166a025582057dd58a97c029baba2deb1ab)
