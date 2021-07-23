@@ -1,4 +1,4 @@
-## Intro (Skip this section to go directly to the meat)
+## Intro
 I am running [McDouchebag](https://1ml.com/node/03b75897555da10fc84c93fd1543f4e166a025582057dd58a97c029baba2deb1ab) and this a guide of how i have chosen to manage 
 fees on my node. I will apologize for my English as that is not my first language, so please bare with me.
 
