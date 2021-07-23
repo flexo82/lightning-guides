@@ -35,7 +35,7 @@ This means if you route a transaction of 100.000 satoshis, you will earn 1,100 s
 
 This fee structure seems good, right?! It is cheap and you earn a few sats when routing transactions. Well, my mission was to help the network and lightning can route anything from large multi-million sats transactions to transactions of only a few sats. In order to route micro-transactions of a few sats, it does not make sense to have a base fee of 1 satoshi. On a 5 satoshi transaction, that would be a 20% fee.
 
-To make a long story short, I ended up at the conclusion that keeping a low base fee would allow micro- as well as macro-transaction and then trying to earn a little satoshis on the fee rate. I searched far and wide for something to help me balance the Fee Rate automatically so I did not have to manually do that all the time.
+To make a long story short, I ended up at the conclusion that keeping a low base fee would allow micro- as well as macro-transaction and then trying to earn some satoshis on the fee rate. I searched far and wide for something to help me balance the Fee Rate automatically so I did not have to manually do that all the time.
 There are multiple tools out there that can help and I eventually settled on using [charge-lnd](https://github.com/accumulator/charge-lnd) with cron. It is an easy to use command-line tool that can balance your channels based on a configuration. The cron job is set to run every 2 minutes on my node which updates the fees.
 
 My config for charge-lnd is [here](https://github.com/flexo82/lightning-guides/blob/main/config/charge-lnd.config). I will keep updating the config and feel free to use or get inspired from it.
