@@ -29,7 +29,7 @@ Base Fee: 1.000 mSat
 Fee Rate: 1 ppm
 ```
 
-The Base Fee is denominated in milli-satoshis, `1 satotoshi = 1.000 milli-satoshis` and is flat rate that will always be payed when routing a transaction
+The Base Fee is denominated in milli-satoshis, `1 satotoshi = 1.000 milli-satoshis` and is flat rate that will always be payed when routing a transaction.
 The Fee Rate is denominated micro-statoshis, `1 satoshi = 1.000.000 micro-satoshis` and is proportional to the size of the transaction.
 This means if you route a transaction of 100.000 satoshis, you will earn 1,100 satoshis.
 
