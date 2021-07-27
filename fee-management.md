@@ -46,13 +46,13 @@ First the defaults that applies to all channels and the `[default]` rule is a ca
 [default]
 # 'default' is special, it is used if no other policy matches a channel
 strategy = static
-base_fee_msat = 1
+base_fee_msat = 0
 fee_ppm = 50
 
 [mydefaults]
 # no strategy, so this only sets some defaults
-base_fee_msat = 1
-min_fee_ppm_delta = 50
+base_fee_msat = 0
+min_fee_ppm_delta = 5
 time_lock_delta = 40
 min_htlc_msat = 1
 ```
@@ -88,7 +88,7 @@ chan.private = true
 
 strategy = static
 fee_ppm = 25
-base_fee_msat = 1
+base_fee_msat = 0
 ```
 
 
@@ -98,8 +98,8 @@ This is the rule that applies to most channels. It sets the fees based on the cu
 # Set fees proportionally to how the channel is funds are balanced
 
 strategy = proportional
-base_fee_msat = 1
-min_fee_ppm = 10
+base_fee_msat = 0
+min_fee_ppm = 5
 max_fee_ppm = 150
 ```
 
