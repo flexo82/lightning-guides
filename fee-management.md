@@ -1,5 +1,5 @@
 ## Intro
-I am running [McDouchebag](https://1ml.com/node/03b75897555da10fc84c93fd1543f4e166a025582057dd58a97c029baba2deb1ab) and this is a guide of how I have chosen to manage fees on my node.
+I am running [McDouchebag](https://amboss.space/node/026efccf6315aa453f65082c6b8e228d4cce02bf15c6d8495a189019786836c004) and this is a guide of how I have chosen to manage fees on my node.
 
 When I set up my node for the first time in 2018 I only opened 2 channels which did not see a single transaction for more than a year. There were no good guides on how to run routing nodes out there and do not even talk about managing fees. To this day I have not been able to find a single guide about fee structure which made me want to write one. 
 I struggled as a newcomer to the lightning network and I did not know how to make my node succesful or even profitable. 
@@ -20,7 +20,7 @@ Fees on the lightning network is still a very mysterious thing. There is no righ
 Channels need constant care and grooming if you want to run a profitable routing node. 
 
 As I mentioned in the intro, my aim is not to be profitable, however it is a nice side effect of running a routing node. I have earned back the sats i have spent on opening channels and rebalancing, but it is not enough for me to retire in any way. I may be lucky if I can buy a cup of coffee once in a while.
-When I started my routing node, my aim was to help the network. I decided I wanted to run a low fee node in the hopes people would automatically discover it on [1ML](https://1ml.com/node/03b75897555da10fc84c93fd1543f4e166a025582057dd58a97c029baba2deb1ab), but of course that did not happen.
+When I started my routing node, my aim was to help the network. I decided I wanted to run a low fee node in the hopes people would automatically discover it on [1ML](https://amboss.space/node/026efccf6315aa453f65082c6b8e228d4cce02bf15c6d8495a189019786836c004), but of course that did not happen.
 
 I started out like most new people having my fees at the default you get out of the box. I run [RaspiBliz](https://github.com/rootzoll/raspiblitz) node on a RP4 which uses [LND](https://github.com/lightningnetwork/lnd).
 The default fees sits the following.
@@ -109,4 +109,4 @@ I have provided a way for structuring fees. I do not claim this is a good way to
 
 It has been a journey for me to find some fees that works. I have tried to make it such that i am running a routing node with relatively cheap fees in a way that makes me break more or less even when considering cost of hardware, electricity, channel creation fees and rebelancing and I have attempted to make effort towards ensuring the big nodes that drain funds are paying more for doing so in order to keep my channels balanced.
 
-If you think this guide has been helpful and want to support me and/or the network, feel free to set up a channel to my node, [McDouchebag](https://1ml.com/node/03b75897555da10fc84c93fd1543f4e166a025582057dd58a97c029baba2deb1ab)
+If you think this guide has been helpful and want to support me and/or the network, feel free to set up a channel to my node, [McDouchebag](https://amboss.space/node/026efccf6315aa453f65082c6b8e228d4cce02bf15c6d8495a189019786836c004)
